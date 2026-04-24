@@ -1,0 +1,1 @@
+{"n_classes": 5, "hidden": 64, "embed": 128, "node_feat_dim": 12, "fp_dim": 128, "atom_types": ["C", "N", "O", "S", "F", "P", "Cl", "Br", "I"], "fold_accuracies": [0.7038369304556354, 0.7310924369747899, 0.7118847539015606], "mean_cv_acc": 0.7156047071106619}
