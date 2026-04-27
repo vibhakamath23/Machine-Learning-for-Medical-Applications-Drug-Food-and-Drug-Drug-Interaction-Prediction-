@@ -2,7 +2,7 @@
 
 A machine learning pipeline that predicts drug-drug and drug-food interactions from molecular structure, combining Graph Neural Networks (GNNs), Random Forests, and BioBERT-based NLP. Built as part of a Johns Hopkins University MLMA course final project.
 
-The included directory `drug_interaction_models` contains fully trained model outputs and figures from running the full pipeline. If desired, this can be downloaded and only the final notebook 3 can be run or edited with this folder to produce results on the architecture outlined in notebooks 1 and 2 below. This will take around 20 minutes on a Colab G4. If end-to-end retraining and running of all three notebooks is desired (if any architecture changes are to be made to the models), this will take ~1 - 2 hrs to rerun.
+The included directory `drug_interaction_models` contains fully trained model outputs and figures from running the full pipeline. If desired, this can be downloaded and only the Predictive UI in final notebook 3 can be run with this folder to produce results with the architecture outlined in notebooks 1 and 2 below. This will take around 20 minutes on a Colab G4. If end-to-end retraining and running of all three notebooks is desired (if any architecture changes are to be made to the models), this will take ~1 - 2 hrs to rerun.
 
 ---
 
