@@ -93,8 +93,7 @@ Trains and evaluates two models on the PyTDC DrugBank DDI dataset and saves all 
 5. Train with 3-fold stratified cross-validation (50 epochs per fold, Adam optimizer with weight decay, StepLR scheduler)
 6. Track and plot training loss and validation accuracy per fold; save the best-performing fold's weights
 7. Print a full classification report on the final fold
-
-**Saved to Drive:** GNN weights (`.pt`), config JSON, both label encoders, both label maps, and all figures.
+8. Saved to Drive: GNN weights (`.pt`), config JSON, both label encoders, both label maps, and all figures.
 ---
 
 ### `notebook2_food_model.ipynb` — Drug-Food Interaction Model
