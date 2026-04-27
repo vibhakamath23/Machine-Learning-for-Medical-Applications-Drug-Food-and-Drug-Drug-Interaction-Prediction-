@@ -112,7 +112,7 @@ Builds a multi-label food behavior classifier using the Kaggle drug-food interac
 5. Compute 2048-bit Morgan fingerprints for all drugs with resolved SMILES; concatenate fingerprints and BERT embeddings into a 2816-dimensional feature vector per drug
 6. Binarize multi-labels with `MultiLabelBinarizer`; split into 70% train / 15% val / 15% test
 7. Train an `OneVsRestClassifier` wrapping a `RandomForestClassifier` (200 trees, balanced weights) for multi-label prediction
-8. Evaluate with micro F1, macro F1, sample F1, and exact match accuracy; plot per-class F1 and a label co-occurrence heatmap
+8. Evaluate with micro F1, macro F1, sample F1, and exact match accuracy; plot per-class F1 
 9. Save all model artifacts, the lookup table, and figures to Google Drive
 ---
 
