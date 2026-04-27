@@ -120,7 +120,7 @@ Builds a multi-label food behavior classifier using the Kaggle drug-food interac
 
 Loads all saved models from Google Drive and provides two things: an interactive widget UI for querying drug interactions, and a head-to-head model comparison section.
 
-**Prerequisites:** Notebooks 1 and 2 must be run first so all model artifacts exist in Drive at `drug_interaction_models/`.
+**Prerequisites:** Notebooks 1 and 2 must be run first so all model artifacts exist in Drive at `drug_interaction_models/`. Alternatively, download the included folder and mount it to Drive to just run Notebook 3. 
 
 #### Module A — DDI Random Forest
 Loads `ddi_multiclass_model.pkl` and its label encoder. Given two drug SMILES strings, predicts the top-k most probable interaction types from the 89-class model with confidence scores.
