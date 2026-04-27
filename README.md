@@ -66,7 +66,7 @@ A preliminary notebook that verifies all datasets can be loaded and previewed be
 
 ---
 
-### `notebook1_updated.ipynb` — Drug-Drug Interaction Models
+### `notebook1_DrugDrug.ipynb` — Drug-Drug Interaction Models
 
 Trains and evaluates two models on the PyTDC DrugBank DDI dataset and saves all artifacts to Google Drive.
 
@@ -98,7 +98,7 @@ Trains and evaluates two models on the PyTDC DrugBank DDI dataset and saves all 
 8. Saved to Drive: GNN weights (`.pt`), config JSON, both label encoders, both label maps, and all figures.
 ---
 
-### `notebook2_food_model.ipynb` — Drug-Food Interaction Model
+### `notebook2_DrugFood.ipynb` — Drug-Food Interaction Model
 
 Builds a multi-label food behavior classifier using the Kaggle drug-food interaction dataset.
 
@@ -117,7 +117,7 @@ Builds a multi-label food behavior classifier using the Kaggle drug-food interac
 9. Save all model artifacts, the lookup table, and figures to Google Drive
 ---
 
-### `notebook3_updated.ipynb` — Interactive Query Tool & Model Comparison
+### `notebook3_PredictiveUI.ipynb` — Interactive Query Tool & Model Comparison
 
 Loads all saved models from Google Drive and provides two things: an interactive widget UI for querying drug interactions, and a head-to-head model comparison section.
 
