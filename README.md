@@ -1,7 +1,5 @@
 # Optimizing Food and Medication Intake Through Machine Learning-Based Interaction Prediction
 
-# Drug-Food and Drug-Drug Interaction Prediction
-
 A machine learning pipeline that predicts drug-drug and drug-food interactions from molecular structure, combining Graph Neural Networks (GNNs), Random Forests, and BioBERT-based NLP. Built as part of a Johns Hopkins University MLMA course final project.
 
 ---
