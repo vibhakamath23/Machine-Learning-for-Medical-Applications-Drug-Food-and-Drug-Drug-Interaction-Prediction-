@@ -165,9 +165,3 @@ pip install scikit-learn==1.2.2  # required for model compatibility in Notebook 
 ```
 
 All notebooks are designed to run on **Google Colab** with GPU acceleration and Google Drive mounted at `/content/drive/MyDrive/drug_interaction_models`.
-
----
-
-## Authors
-
-Naina Misra, Vibha Kamath, Shreya Terala — Whiting School of Engineering, Johns Hopkins University
