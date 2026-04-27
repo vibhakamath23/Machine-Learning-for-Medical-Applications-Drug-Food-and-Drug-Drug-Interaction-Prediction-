@@ -141,7 +141,7 @@ An `ipywidgets`-based interface with two modes:
 Draws a shared held-out sample of DDI pairs and runs both models (RF vs. GNN) head-to-head. Produces: accuracy comparison, per-class F1 bar charts for both models, and confusion matrices.
 
 #### Programmatic API
-Runs the logic of the interactive UI as hardcode for Aspirin and Warfarin. Can be filled in with other names for programattic usage of the tool or is helpful as a debugging/sanity check tool to make sure all parts of the Interactive UI pipeline are working correctly. 
+Runs the logic of the interactive UI as hardcode for Aspirin and Warfarin. Can be filled in with other names for programmatic usage of the tool or is helpful as a debugging/sanity check tool to make sure all parts of the Interactive UI pipeline are working correctly. 
 
 ---
 
