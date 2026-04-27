@@ -60,7 +60,6 @@ A preliminary notebook that verifies all datasets can be loaded and previewed be
 - Loads the PyTDC DrugBank DDI dataset via `tdc.multi_pred.DDI` and prints the train/val/test split sizes and a sample of drug pairs
 - Loads the Kaggle drug-food interaction JSON dataset and displays sample records and food interaction text
 - Visualizes basic dataset statistics: class distributions, drug count, text length distributions
-- Confirms SMILES strings can be parsed by RDKit and converted to molecular graphs
 
 **Run this if:** you want to verify dataset access before committing to the longer training runs in Notebooks 1 and 2.
 
