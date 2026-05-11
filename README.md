@@ -4,6 +4,8 @@ A machine learning pipeline that predicts drug-drug and drug-food interactions f
 
 The included directory `drug_interaction_models` contains fully trained model outputs and figures from running the full pipeline. If desired, this can be downloaded and only the Predictive UI in final notebook 3 can be run with this folder to produce results with the architecture outlined in notebooks 1 and 2 below. This will take around 20 minutes on a Colab G4. If end-to-end retraining and running of all three notebooks is desired (if any architecture changes are to be made to the models), this will take ~1 - 2 hrs to rerun.
 
+<img width="680" height="563" alt="Screenshot 2026-05-11 at 14 16 45" src="https://github.com/user-attachments/assets/b1276b65-6d3c-490d-a799-59c9974e9067" />
+
 ---
 
 ## Overview
