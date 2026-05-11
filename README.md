@@ -4,8 +4,6 @@ A machine learning pipeline that predicts drug-drug and drug-food interactions f
 
 The included directory `drug_interaction_models` contains fully trained model outputs and figures from running the full pipeline. If desired, this can be downloaded and only the Predictive UI in final notebook 3 can be run with this folder to produce results with the architecture outlined in notebooks 1 and 2 below. This will take around 20 minutes on a Colab G4. If end-to-end retraining and running of all three notebooks is desired (if any architecture changes are to be made to the models), this will take ~1 - 2 hrs to rerun.
 
-<img width="680" height="563" alt="Screenshot 2026-05-11 at 14 16 45" src="https://github.com/user-attachments/assets/b1276b65-6d3c-490d-a799-59c9974e9067" />
-
 ---
 
 ## Overview
@@ -15,6 +13,11 @@ Managing multiple medications safely is often difficult ad patients and physicia
 **Two interaction domains are covered:**
 - **Drug-Drug Interactions (DDI):** Given two drugs (as SMILES strings or names), predict which of 89 interaction mechanism types applies (Random Forest), or which of the top 5 most common types applies (GNN).
 - **Drug-Food Interactions:** Given a drug, predict which food-related behaviors apply (e.g., avoid alcohol, take with food, avoid grapefruit) using a multi-label classifier trained on BioBERT embeddings + Morgan fingerprints.
+
+The general structure and relationship of our three notebooks and the processing they cover is included here as a graphic: 
+
+<img width="680" height="563" alt="Screenshot 2026-05-11 at 14 16 45" src="https://github.com/user-attachments/assets/b1276b65-6d3c-490d-a799-59c9974e9067" />
+
 
 ---
 
